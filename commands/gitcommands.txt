@@ -12,3 +12,15 @@ first time setups in new git environment
 
 git config --global user.name "name" - set name for commits
 git config --global user.email "email" - set email for commits
+
+to get a remote branch
+
+git branch -a - lists all branches
+git checkout -b branchname origin/remotebranchname - create local branch from remote branch
+
+to update branch and merge
+
+git pull origin master - update local branch
+git merge master - merge local branch into master
+git push - push local branch to remote
+
