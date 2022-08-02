@@ -1,0 +1,14 @@
+Git
+
+git branch - check branch
+git branch branchname - create branch
+git checkout branchname - switch to branch
+git add - add file to staging area
+git commit -m "message" - commit staged files to branch
+git pull - pull from remote repository
+git push - push to remote repository
+
+first time setups in new git environment
+
+git config --global user.name "name" - set name for commits
+git config --global user.email "email" - set email for commits
