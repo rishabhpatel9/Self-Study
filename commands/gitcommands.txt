@@ -24,3 +24,4 @@ git pull origin master - update local branch
 git merge master - merge local branch into master
 git push - push local branch to remote
 
+git merge master - merge local branch into master
