@@ -23,4 +23,3 @@ to update branch and merge
 git pull origin master - update local branch
 git merge master - merge local branch into master
 git push - push local branch to remote
-
