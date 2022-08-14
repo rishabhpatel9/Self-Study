@@ -11,3 +11,5 @@ Push a container to a registry: docker push container-name-here registry-here
 List all Docker images: docker images --all
 Remove a container: docker rm container-name-here
 Get information on Docker: docker info
+
+docker-compose up -d
