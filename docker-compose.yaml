@@ -7,7 +7,9 @@ services:
       build: .
       container_name: jupyter-datascience
       environment:
-        JUPYTER_TOKEN: ""
+        #JUPYTER_TOKEN: "12345"
+        JUPYTER_ENABLE_LAB: "yes"
+      command: "start-notebook.sh --NotebookApp.token='' --NotebookApp.password=''"
       volumes:
         - .:/home/jovyan
       ports:
