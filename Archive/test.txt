@@ -1,0 +1,3 @@
+This file is an experiment to test if a dev environment can be created with this repo and to test all libraries as well as git along with all the branches works as expected.
+
+If the dev environment is reproducible, then the docker experiment is successful.
