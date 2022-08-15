@@ -1,9 +1,9 @@
 FROM jupyter/datascience-notebook
-#LABEL maintainer.name="Jasmin Shah" \
-#    maintainer.email="jasmin_shah@live.com" \
-#    description="Python docker image for personal prjects with dependencies"
+LABEL maintainer.name="Rishabh Patel" \
+    maintainer.email="rishabhpatel369@gmail.com" \
+    description="Python docker image/dev environment for personal projects"
 
-# Install system dependencies
+#Install system dependencies
 #RUN sudo apt-get update
 #COPY system_requirements.txt /tmp/
 #RUN cat /tmp/system_requirements.txt | xargs apt install -y
